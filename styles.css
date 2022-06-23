@@ -146,7 +146,6 @@ nav {
 /* ABOUT ME */
 
 #about-me {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -154,6 +153,8 @@ nav {
 .about-me__info {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
 }
 
 .about-me__info--container {
