@@ -154,7 +154,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
 }
 
 .about-me__info--container {
